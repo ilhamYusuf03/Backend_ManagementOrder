@@ -1,16 +1,12 @@
 spring:
   datasource:
-    url: jdbc:postgresql://prod-db:5432/order_db
-    username: ${DB_USER}
-    password: ${DB_PASS}
+    url: jdbc:postgresql://${PGHOST}:${PGPORT}/${PGDATABASE}
+    username: ${PGUSER}
+    password: ${PGPASSWORD}
     hikari:
       maximum-pool-size: 24
 
   jpa:
     hibernate:
-      ddl-auto: validate
+      ddl-auto: update
     show-sql: false
-
-logging:
-  level:
-    root: INFO
