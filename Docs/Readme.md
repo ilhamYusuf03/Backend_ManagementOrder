@@ -1,8 +1,7 @@
 ## Order Management System
+Sistem Secure Order Management Backend yang dibangun menggunakan Java 21, Spring Boot 3.x, Keycloak, PostgreSQL, dan Midtrans Payment Gateway.
 
-# Folder ini berisi dokumentasi teknis lengkap untuk sistem Secure Order Management Backend yang dibangun menggunakan Java 21, Spring Boot 3.x, Keycloak, PostgreSQL, dan Midtrans Payment Gateway.
-
-# Daftar Dokumen
+# Daftar Docs
 
 - API-Spec.md — Spesifikasi lengkap REST API mencakup semua endpoint, format request/response, role yang diperlukan, dan format error.
 - Architecture.md — Desain arsitektur sistem mencakup struktur layer (Controller, Service, Repository), alur integrasi Midtrans, dan komponen pendukung.
