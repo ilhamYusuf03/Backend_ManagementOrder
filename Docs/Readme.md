@@ -35,11 +35,10 @@
    Pastikan PostgreSQL dan Keycloak sudah berjalan sebelum menjalankan aplikasi.
 2. Jalankan Aplikasi
    bashmvn spring-boot:run -Dspring-boot.run.profiles=dev
-3. Dokumentasi API
+
+* Dokumentasi API
    http://localhost:8080/swagger-ui/index.html
-4. Health Check
+  * Health Check
    http://localhost:8080/actuator/health
 
-# Status Implementasi
-Semua functional dan non-functional requirements telah diimplementasikan dan divalidasi, termasuk integrasi Midtrans Payment Gateway.
-RequirementStatusFR-01 Buat Order✅ SelesaiFR-02 Query Order✅ SelesaiFR-03 Payment Processing (Async + Midtrans)✅ SelesaiFR-04 Keamanan (Keycloak + Role-based)✅ SelesaiFR-05 Error Handling + Correlation ID✅ SelesaiNFR Latency < 100ms✅ ~14ms rata-rataNFR Throughput ≥ 10K req/menit✅ Terpenuhi
+
