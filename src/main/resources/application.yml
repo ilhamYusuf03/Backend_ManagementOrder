@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: order-management
+  profiles:
+    active: dev
+
+server:
+  port: 8080
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info
+  endpoint:s:
+    health:
+      show-details: always
